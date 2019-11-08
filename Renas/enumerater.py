@@ -138,7 +138,6 @@ class Enumerater:
                 pool.append(tmp_net)
         return pool
 
-    # 还原邻接表种的判重部分
     def judgemultiple(self, adja):
         """
         Judging the repetition when restore the network topology adjacency list.
